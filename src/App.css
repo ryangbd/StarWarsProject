@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  background: #0a0a0a;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.header button {
+  width: 15em;
+  height: 5em;
+  border: none;
+  background: transparent;
+  color: #f8f8f8;
+  font-size: 1em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #f8f8f8;
+  color: #0a0a0a;
+}
+
+.titlelogo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.titlelogo h1 {
+  margin: 0 0 5rem;
+  color: #f8f8f8;
+  font-size: 8em;
+  font-weight: 600;
+  text-shadow: 0 0 6px #f8f8f8;
+  transition: 0.2s;
+}
+
+.titlelogo h1:hover {
+  text-shadow: 0 0 8px #f8f8f8;
+}
+
+.titlelogo button {
+  position: absolute;
+  bottom: 20%;
+  border: none;
+  background: transparent;
+  color: #f8f8f8;
+  font-size: 2.2rem;
+  text-shadow: 0 0 2px #f8f8f8;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.titlelogo button:hover {
+  transform: translateY(0.1rem);
+  text-shadow: 0 0 3px #f8f8f8;
+}
