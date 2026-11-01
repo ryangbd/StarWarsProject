@@ -1,0 +1,35 @@
+.titlelogo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.titlelogo h1 {
+  margin: 0 0 5rem;
+  color: #f8f8f8;
+  font-size: 8em;
+  font-weight: 600;
+  text-shadow: 0 0 6px #f8f8f8;
+  transition: 0.2s;
+  cursor: default;
+}
+.titlelogo h1:hover{
+  text-shadow: 0 0 15px #f8f8f8; 
+}
+.titlelogo button {
+  position: absolute;
+  bottom: 20%;
+  border: none;
+  background: transparent;
+  color: #f8f8f8;
+  font-size: 2.2rem;
+  text-shadow: 0 0 3px #f8f8f8;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.titlelogo button:hover {
+  transform: translateY(0.1rem);
+  text-shadow: 0 0 3px #f8f8f8;
+}

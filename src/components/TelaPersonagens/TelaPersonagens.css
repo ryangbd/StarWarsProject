@@ -1,0 +1,19 @@
+.PersonaScreen {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  margin: 8rem 0 0 0;
+  background-image: url("../../assets/images/logo/mainlogo0.png");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.LightSide, .DarkSide {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.DarkSide { margin-left: auto; }

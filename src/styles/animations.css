@@ -1,0 +1,7 @@
+.fade-in { animation: fadeIn 0.5s ease forwards; }
+.fade-out { animation: fadeOut 0.5s ease forwards; }
+/*personagem tela*/
+.fade-inpersona { animation: fadeIn 0.3s ease forwards; }
+.fade-outpersona { animation: fadeOut 0.3s ease forwards; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
